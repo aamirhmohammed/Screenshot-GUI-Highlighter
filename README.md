@@ -14,16 +14,26 @@ It opens each highlighted file to show it's been annotated, then saves it as a n
 This project was straightforward in requirements, but a few design decisions were made. Noticing a corrupt xml file in the test cases, it was important to include some form of exception handling. A simple try except block worked to avoid parsing unreadable data, and the program prints an error message so the user is aware that the file was not processed. The width and color of the highlighted rectangles emulate the example in the project specifications, so no creative measures were considered there. Finally, the choice in parsing and image manipulation libraries were based on accessible documentation and convenience of use. I had no experience working in either library previously, and consulted the following resources:
 
 OS RESOURCES
+
 https://www.geeksforgeeks.org/python-os-direntry-name-attribute/
+
 https://flexiple.com/python/python-get-current-directory/
 
+
 PARSER RESOURCES
+
 https://docs.python.org/3/library/xml.dom.minidom.html
+
 https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes
 
+
 PILLOW RESOURCES
+
 https://www.geeksforgeeks.org/python-pil-image-save-method/
+
 https://pillow.readthedocs.io/en/stable/reference/ImageDraw.html
 
+
 OTHER RESOURCES
+
 https://www.geeksforgeeks.org/python-convert-string-to-tuple/
