@@ -1,4 +1,4 @@
-# CS_435_Programming_Assignment_1
+# Screenshot GUI Highlighter
  A small tool that highlights and annotates the leaf level GUI-components in an Android application screenshot
  
  To run this code, create a folder containing rect.py and any screenshots that need annotations. 
